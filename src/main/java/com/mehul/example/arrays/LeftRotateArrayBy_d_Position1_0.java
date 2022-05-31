@@ -1,6 +1,6 @@
 package com.mehul.example.arrays;
 
-public class LeftRotateArrayBy_d_Position1 {
+public class LeftRotateArrayBy_d_Position1_0 {
 
 	public static void leftRotateArrayBy_d_Position(int[] arr, int d) {
 
