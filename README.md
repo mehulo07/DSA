@@ -1,2 +1,2 @@
 # DSA
-Data Structures and Algorithm related problem
+Data Structures and Algorithm related problems solutions
