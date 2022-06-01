@@ -4,9 +4,11 @@ public class CheckForPalindrome1 {
 
 	static StringBuilder newString = new StringBuilder();
 
+	// Tail recursion
 	public static boolean isPalindrom(String string, int strLength) {
 		if (strLength == 0)
 			return newString.toString().equals(string);
+
 		newString.append(string.charAt(strLength - 1));
 		return isPalindrom(string, strLength - 1);
 	}
